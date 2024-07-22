@@ -1,0 +1,71 @@
+/* SignUp.css */
+
+/* Container for the whole sign-up page */
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to right,
+    #3b82f6,
+    #10b981
+  ); /* Blue to Green gradient */
+}
+
+/* Main container for the sign-up form */
+.signup-form-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 24rem; /* Width of the form */
+}
+
+/* Headings */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Submit button */
+input[type="submit"] {
+  background-color: #3b82f6; /* Blue */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2563eb; /* Darker blue */
+}
+
+/* Link */
+a {
+  color: #3b82f6;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Text */
+p {
+  font-size: 1rem;
+  color: #4b5563; /* Gray color */
+}

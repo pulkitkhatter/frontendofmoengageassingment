@@ -1,0 +1,49 @@
+/* src/components/Dashboard.css */
+
+/* Container for the whole dashboard page */
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  background: #f3f4f6; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+  background: #2563eb; /* Blue background */
+  color: white;
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  color: #a1c4fd; /* Lighter blue for hover */
+}
+
+/* Main Content Area */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
